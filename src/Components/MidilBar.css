@@ -1,0 +1,17 @@
+.midlbox{
+    width: 20%;
+    background-color: #98DED9;
+}
+.com{
+    margin: 10px;
+    padding: 5px;
+}
+.com:hover{
+    border-radius: 10px;
+    background-color: #C7FFD8;
+}
+.dn-container1{
+    border-top: 2px solid #0B2F9F;
+    width: 220px;
+    margin-left: 15px;
+}

@@ -1,0 +1,34 @@
+
+
+.main{
+    background-color: #C7FFD8;
+    width: 60px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.pro{
+    height: 40px;
+}
+.ic{
+    height: 30px;
+}
+.up-container{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.dn-container{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ic:hover{
+    transform: scale(1.2);
+}
