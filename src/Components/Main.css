@@ -1,41 +1,29 @@
 .in{
-    background-color: #161D6F;
-    width: 100%;
-}
-.nav{
-    background-color: #C7FFD8;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10PX;
+    background-color: #fff;
+    width: 45%;
+    border-right: #f9f9f9 solid 5px ;
 }
 .line{
     text-decoration: line-through;
-    color: green;
-}
-.nav img{
-    height: 20px;
-    margin: 5px;
-}
-.nav span{
-    margin-left: 5px;
+    color: rgb(128, 128, 128);
 }
 .boxy{
-    background-color: #161D6F;
+    background-color: #fff;
     height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .boxy input{
-    height: 50px;
+    height: 40px;
     width: 600px;
-    
+    margin-left: 40px;
+    background-color: #f9f9f9;
+    border: 0;
 }
 .page{
-    height: 50px;
+    height:120%;
     width: 80%;
-    background-color: #98DED9;
     border-radius: 5px;
     display: flex;
     justify-content:space-between;
@@ -46,29 +34,17 @@
     display: flex;
     width: 20%;
     justify-content: space-between;
-    align-items: center;
 }
 .content{
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    
-}
-.inner input{
-    width: 20px;
-    height: 20px;
 }
 .page button{
     background-color: transparent;
     border: 0;
     height: 20px;
-}
-.page button:hover{
-    transform: scale(1.3);
-}
-.boxy button:hover{
-    transform: scale(1.3);
 }
 .boxy img{
     height: 20px;
@@ -80,10 +56,5 @@
     right: 70px;
 }
 .page:hover{
-    background-color: #C7FFD8;
-    transform: scale(1.04);
+    background-color: #f9f9f9;
 }
-.nav img:hover{
-    transform: scale(1.4);
-}
-

@@ -1,0 +1,8 @@
+.comp{
+    width: 45%;
+    border-right: #f9f9f9 solid 5px ;
+}
+ul{
+    margin-left: 10px;
+    list-style-type: decimal;
+}

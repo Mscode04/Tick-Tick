@@ -3,7 +3,7 @@ import React from 'react'
 function Inbox() {
   return (
     <div>
-      <h1>inbox</h1>
+      <h1>inbox Tasks</h1>
     </div>
   )
 }

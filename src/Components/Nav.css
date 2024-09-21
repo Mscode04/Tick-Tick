@@ -1,0 +1,19 @@
+.nav img{
+    height: 15px;
+    margin: 5px;
+}
+.nav span{
+    margin-left: 5px;
+}
+.inn{
+    background-color: #fff;
+    width: 100.9%;
+    border-right: #f9f9f9 solid 5px ;
+}
+.nav{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10PX;
+}

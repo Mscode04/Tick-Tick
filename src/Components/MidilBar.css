@@ -1,6 +1,12 @@
 .midlbox{
-    width: 20%;
-    background-color: #98DED9;
+    width: 15%;
+    background-color: #ffffff;
+    border-right: #f9f9f9 solid 5px ;
+    border-left: #f9f9f9 solid 5px ;
+}
+a{
+    text-decoration: none;
+    color: #191919;
 }
 .com{
     margin: 10px;
@@ -8,10 +14,12 @@
 }
 .com:hover{
     border-radius: 10px;
-    background-color: #C7FFD8;
+    background-color:#e8e8e8
 }
 .dn-container1{
-    border-top: 2px solid #0B2F9F;
-    width: 220px;
-    margin-left: 15px;
+    border-top: 5px solid #f9f9f9;
+    width: 200px;
+}
+img{
+    height: 20px;
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import Images from '../Assets/shaheen8.png'
+import Images from '../Assets/shaheen4.jpg'
 import Images1 from '../Assets/icons8-checkbox-50.png'
 import Images2 from '../Assets/icons8-alert-50.png'
 import Images3 from '../Assets/icons8-calender-64.png'

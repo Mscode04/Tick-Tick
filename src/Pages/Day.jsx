@@ -1,9 +1,34 @@
 import React from 'react'
+import Nav from '../Components/Nav';
+import './Complete.css'
 
-function Day({days}) {
+function Day({ days }) {
+  const today = new Date();
+  const todayDate = today.getDate();
+  const todayMonth = today.getMonth();
+  const todayYear = today.getFullYear();
+  const Tasks = days.filter(task => {
+    const taskDate = new Date(task.id);
+    return (
+      taskDate.getDate() === todayDate &&
+      taskDate.getMonth() === todayMonth &&
+      taskDate.getFullYear() === todayYear
+    );
+  });
   return (
-    <div>
-      <h1>{days}</h1>
+    <div className='comp'>
+      <Nav titile={"Day"}/>
+{Tasks.length === 0 ? (
+        <p>No tasks added today</p>
+      ) : (
+        <ul>
+          {Tasks.map(task => (
+            <li key={task.id}>
+              {task.text}
+            </li>
+          ))}
+        </ul>
+      )}
     </div>
   )
 }
