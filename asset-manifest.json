@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Tick-Tick%20/static/css/main.de66c334.css",
+    "main.js": "/Tick-Tick%20/static/js/main.5f00b749.js",
+    "static/media/shaheen4.jpg": "/Tick-Tick%20/static/media/shaheen4.b8052d2236ca773cc87e.jpg",
+    "index.html": "/Tick-Tick%20/index.html",
+    "main.de66c334.css.map": "/Tick-Tick%20/static/css/main.de66c334.css.map",
+    "main.5f00b749.js.map": "/Tick-Tick%20/static/js/main.5f00b749.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de66c334.css",
+    "static/js/main.5f00b749.js"
+  ]
+}
