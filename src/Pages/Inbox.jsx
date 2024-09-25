@@ -1,5 +1,4 @@
 import React from 'react'
-
 function Inbox() {
   return (
     <div>
@@ -7,5 +6,4 @@ function Inbox() {
     </div>
   )
 }
-
 export default Inbox
