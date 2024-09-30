@@ -2,6 +2,13 @@ import React from 'react'
 import Nav from '../Components/Nav';
 import './Complete.css'
 
+
+
+
+
+
+
+\
 function Day({ days }) {
   const today = new Date();
   const todayDate = today.getDate();
